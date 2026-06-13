@@ -1,0 +1,115 @@
+{
+  "provider": "axxess",
+  "blog_url": "https://www.axxess.com/blog/",
+  "last_fetched": "2026-06-13",
+  "posts": [
+    {
+      "title": "The Five Most Underrated Clinical Workflow Fixes (That Make Nurses Love You)",
+      "url": "https://www.axxess.com/blog/operational/the-five-most-underrated-clinical-workflow-fixes-that-make-nurses-love-you/",
+      "date": "2026-06-10",
+      "author": "Susanna Welch",
+      "author_title": "Senior Communications Manager",
+      "category": "operational",
+      "summary": "Addresses nurse frustrations with software, including excessive clicks and poor after-hours documentation."
+    },
+    {
+      "title": "How to Achieve Five-Star Excellence With Axxess",
+      "url": "https://www.axxess.com/blog/operational/how-to-achieve-five-star-excellence-with-axxess/",
+      "date": "2026-06-03",
+      "author": "Alexandria Nelson",
+      "author_title": "Communications Specialist",
+      "category": "operational",
+      "summary": "Discusses quality scores as business differentiators and the importance of visible, measurable workflows."
+    },
+    {
+      "title": "CMS Announces National Hospice, Home Health Enrollment Moratorium",
+      "url": "https://www.axxess.com/blog/operational/cms-announces-national-hospice-home-health-enrollment-moratorium/",
+      "date": "2026-05-27",
+      "author": "Susanna Welch",
+      "author_title": "Senior Communications Manager",
+      "category": "operational",
+      "summary": "Covers a six-month federal moratorium on enrollment for certain hospice and home health providers."
+    },
+    {
+      "title": "The Mental Health Cost of Not Being Believed",
+      "url": "https://www.axxess.com/blog/operational/the-mental-health-cost-of-not-being-believed/",
+      "date": "2026-05-20",
+      "author": "Susanna Welch",
+      "author_title": "Senior Communications Manager",
+      "category": "operational",
+      "summary": "Explores psychological impacts when healthcare providers dismiss patient concerns."
+    },
+    {
+      "title": "Ask Axxess: The Intelligent Search Tool Transforming Home-Based Care",
+      "url": "https://www.axxess.com/blog/operational/ask-axxess-the-intelligent-search-tool-transforming-home-based-care/",
+      "date": "2026-05-13",
+      "author": "Alexandria Nelson",
+      "author_title": "Communications Specialist",
+      "category": "operational",
+      "summary": "Features an AI-powered search tool for identifying high-risk patients and accessing information quickly."
+    },
+    {
+      "title": "The Psychology of Bad Workflow: Why Small Frictions Make Big Problems",
+      "url": "https://www.axxess.com/blog/operational/the-psychology-of-bad-workflow-why-small-frictions-make-big-problems/",
+      "date": "2026-05-06",
+      "author": "Susanna Welch",
+      "author_title": "Senior Communications Manager",
+      "category": "operational",
+      "summary": "Examines how workflow inefficiencies affect clinician cognition and performance."
+    },
+    {
+      "title": "Advance Your Care Coordination With Axxess Connect and Axxess Central",
+      "url": "https://www.axxess.com/blog/operational/advance-your-care-coordination-with-axxess-connect-and-axxess-central/",
+      "date": "2026-04-29",
+      "author": "Alexandria Nelson",
+      "author_title": "Communications Specialist",
+      "category": "operational",
+      "summary": "Discusses tools for streamlining collaboration and scheduling across care teams."
+    },
+    {
+      "title": "Achieving Clinical Excellence With Artificial Intelligence",
+      "url": "https://www.axxess.com/blog/operational/achieving-clinical-excellence-with-artificial-intelligence/",
+      "date": "2026-04-22",
+      "author": "Susanna Welch",
+      "author_title": "Senior Communications Manager",
+      "category": "operational",
+      "summary": "Part of a webinar series on responsible AI implementation in care delivery."
+    },
+    {
+      "title": "Strengthening Home Health Financial Performance Through Smarter Reporting",
+      "url": "https://www.axxess.com/blog/operational/strengthening-home-health-financial-performance-through-smarter-reporting/",
+      "date": "2026-04-15",
+      "author": "Alexandria Nelson",
+      "author_title": "Communications Specialist",
+      "category": "operational",
+      "summary": "Features insights on flexible financial reporting for operational complexity management."
+    },
+    {
+      "title": "What It Takes to Scale Care at Home Without Overloading Clinicians",
+      "url": "https://www.axxess.com/blog/financial/what-it-takes-to-scale-care-at-home-without-overloading-clinicians/",
+      "date": "2026-04-08",
+      "author": "Johnathan Eaves",
+      "author_title": "Associate Vice President of Communications",
+      "category": "financial",
+      "summary": "Addresses growth challenges and system requirements for organizational expansion."
+    },
+    {
+      "title": "Elevating Care Quality Through Professional Caregiver Education",
+      "url": "https://www.axxess.com/blog/operational/elevating-care-quality-through-professional-caregiver-education/",
+      "date": "2026-04-01",
+      "author": "Alexandria Nelson",
+      "author_title": "Communications Specialist",
+      "category": "operational",
+      "summary": "Highlights caregiver education's role in maintaining care quality and patient dignity."
+    },
+    {
+      "title": "Predicting End-of-Life Risk in Hospice Care",
+      "url": "https://www.axxess.com/blog/operational/predicting-end-of-life-risk-hospice-care/",
+      "date": "2026-03-25",
+      "author": "Susanna Welch",
+      "author_title": "Senior Communications Manager",
+      "category": "operational",
+      "summary": "Examines predictive tools for identifying patients nearing the final week of life."
+    }
+  ]
+}

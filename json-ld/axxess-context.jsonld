@@ -1,0 +1,295 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "provider": "https://schema.org/Organization",
+    "name": "https://schema.org/name",
+    "description": "https://schema.org/description",
+    "url": "https://schema.org/url",
+    "api": "https://schema.org/WebAPI",
+    "fhir": "http://hl7.org/fhir/",
+    "hl7": "http://www.hl7.org/",
+    "hipaa": "https://www.hhs.gov/hipaa/",
+    "hitrust": "https://hitrustalliance.net/",
+    "tefca": "https://www.healthit.gov/topic/interoperability/policy/trusted-exchange-framework-and-common-agreement-tefca",
+    "cehrt": "https://www.healthit.gov/topic/certification-ehrs/certification-health-it",
+    "ccda": "http://www.hl7.org/implement/standards/product_brief.cfm?product_id=492",
+    "oasis": "https://www.cms.gov/Medicare/Quality-Initiatives-Patient-Assessment-Instruments/HomeHealthQualityInits/HHQIOASISUserManual",
+    "axxess": "https://www.axxess.com/",
+    "engage": "https://engage.axxess.com/",
+
+    "Patient": {
+      "@id": "fhir:Patient",
+      "@type": "@id"
+    },
+    "patientId": {
+      "@id": "fhir:Patient.id",
+      "@type": "https://schema.org/identifier"
+    },
+    "admissionId": {
+      "@id": "axxess:admissionId",
+      "@type": "https://schema.org/identifier"
+    },
+    "branchId": {
+      "@id": "axxess:branchId",
+      "@type": "https://schema.org/identifier"
+    },
+    "medicalRecordNumber": {
+      "@id": "fhir:Patient.identifier",
+      "@type": "https://schema.org/identifier"
+    },
+    "dateOfBirth": {
+      "@id": "fhir:Patient.birthDate",
+      "@type": "https://schema.org/Date"
+    },
+    "lineOfService": {
+      "@id": "axxess:lineOfService",
+      "@type": "https://schema.org/Text"
+    },
+
+    "VitalSign": {
+      "@id": "fhir:Observation",
+      "@type": "@id"
+    },
+    "bloodPressure": {
+      "@id": "fhir:Observation.component",
+      "@type": "https://schema.org/Text"
+    },
+    "temperature": {
+      "@id": "fhir:Observation.valueQuantity",
+      "@type": "https://schema.org/Number"
+    },
+    "pulse": {
+      "@id": "fhir:Observation.valueQuantity",
+      "@type": "https://schema.org/Number"
+    },
+    "respiratoryRate": {
+      "@id": "fhir:Observation.valueQuantity",
+      "@type": "https://schema.org/Number"
+    },
+    "oxygenSaturation": {
+      "@id": "fhir:Observation.valueQuantity",
+      "@type": "https://schema.org/Number"
+    },
+
+    "CarePlan": {
+      "@id": "fhir:CarePlan",
+      "@type": "@id"
+    },
+    "problemStatement": {
+      "@id": "fhir:Condition.code",
+      "@type": "https://schema.org/Text"
+    },
+    "goal": {
+      "@id": "fhir:Goal",
+      "@type": "@id"
+    },
+    "intervention": {
+      "@id": "fhir:CarePlan.activity",
+      "@type": "@id"
+    },
+
+    "Medication": {
+      "@id": "fhir:MedicationRequest",
+      "@type": "@id"
+    },
+    "medicationName": {
+      "@id": "fhir:Medication.code",
+      "@type": "https://schema.org/Text"
+    },
+    "dosage": {
+      "@id": "fhir:Dosage",
+      "@type": "@id"
+    },
+    "frequency": {
+      "@id": "fhir:Timing",
+      "@type": "https://schema.org/Text"
+    },
+    "indication": {
+      "@id": "fhir:MedicationRequest.reasonCode",
+      "@type": "https://schema.org/Text"
+    },
+
+    "Allergy": {
+      "@id": "fhir:AllergyIntolerance",
+      "@type": "@id"
+    },
+    "allergyType": {
+      "@id": "fhir:AllergyIntolerance.type",
+      "@type": "https://schema.org/Text"
+    },
+    "severity": {
+      "@id": "fhir:AllergyIntolerance.reaction.severity",
+      "@type": "https://schema.org/Text"
+    },
+    "reactionType": {
+      "@id": "fhir:AllergyIntolerance.reaction.manifestation",
+      "@type": "https://schema.org/Text"
+    },
+
+    "CcdaDocument": {
+      "@id": "ccda:ClinicalDocument",
+      "@type": "@id"
+    },
+    "patientDemographics": {
+      "@id": "fhir:Patient",
+      "@type": "@id"
+    },
+    "encounters": {
+      "@id": "fhir:Encounter",
+      "@type": "@id"
+    },
+    "immunizations": {
+      "@id": "fhir:Immunization",
+      "@type": "@id"
+    },
+    "procedures": {
+      "@id": "fhir:Procedure",
+      "@type": "@id"
+    },
+    "labResults": {
+      "@id": "fhir:DiagnosticReport",
+      "@type": "@id"
+    },
+    "functionalStatus": {
+      "@id": "fhir:Observation",
+      "@type": "@id"
+    },
+
+    "ApiEndpoint": {
+      "@id": "https://schema.org/EntryPoint",
+      "@type": "@id"
+    },
+    "baseUrl": {
+      "@id": "https://schema.org/url",
+      "@type": "@id"
+    },
+    "httpMethod": {
+      "@id": "https://schema.org/httpMethod",
+      "@type": "https://schema.org/Text"
+    },
+    "authorizationHeader": {
+      "@id": "axxess:authorizationHeader",
+      "@type": "https://schema.org/Text"
+    },
+    "xAccountId": {
+      "@id": "axxess:xAccountId",
+      "@type": "https://schema.org/identifier"
+    },
+    "xTimeZone": {
+      "@id": "axxess:xTimeZone",
+      "@type": "https://schema.org/Text"
+    },
+
+    "CehrtCriteria": {
+      "@id": "cehrt:CehrtCriteria",
+      "@type": "@id"
+    },
+    "patientSelection": {
+      "@id": "cehrt:g7PatientSelection",
+      "@type": "https://schema.org/Text"
+    },
+    "dataCategoryRequest": {
+      "@id": "cehrt:g8DataCategoryRequest",
+      "@type": "https://schema.org/Text"
+    },
+    "allDataRequest": {
+      "@id": "cehrt:g9AllDataRequest",
+      "@type": "https://schema.org/Text"
+    },
+
+    "endpoints": {
+      "@id": "axxess:endpoints",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "Blog": {
+      "@id": "https://schema.org/Blog",
+      "@type": "@id"
+    },
+    "BlogPost": {
+      "@id": "https://schema.org/BlogPosting",
+      "@type": "@id"
+    },
+    "author": {
+      "@id": "https://schema.org/author",
+      "@type": "@id"
+    },
+    "datePublished": {
+      "@id": "https://schema.org/datePublished",
+      "@type": "https://schema.org/Date"
+    },
+    "category": {
+      "@id": "https://schema.org/articleSection",
+      "@type": "https://schema.org/Text"
+    }
+  },
+  "@graph": [
+    {
+      "@type": "provider",
+      "@id": "https://www.axxess.com/",
+      "name": "Axxess",
+      "description": "Home health, hospice, and private duty software with CEHRT-certified EHR APIs supporting FHIR, HL7, TEFCA, HITRUST, and HIPAA standards.",
+      "url": "https://www.axxess.com/",
+      "endpoints": [
+        {
+          "@type": "ApiEndpoint",
+          "@id": "engage:api/v1/patients/patient-by-name-mrn",
+          "name": "Patient Selection",
+          "httpMethod": "GET",
+          "url": "{BaseUri}/api/v1/patients/patient-by-name-mrn",
+          "description": "CEHRT § 170.315(g)(7) — search patients by name or MRN",
+          "CehrtCriteria": "patientSelection"
+        },
+        {
+          "@type": "ApiEndpoint",
+          "@id": "engage:api/v1/patients/{id}/slim",
+          "name": "Patient Details (Slim)",
+          "httpMethod": "GET",
+          "url": "{BaseUrl}/api/v1/patients/{id}/slim",
+          "description": "CEHRT § 170.315(g)(8) — retrieve full patient demographics, insurance, diagnoses, and admission details."
+        },
+        {
+          "@type": "ApiEndpoint",
+          "@id": "engage:api/v1/vitalsign",
+          "name": "Vital Signs",
+          "httpMethod": "GET",
+          "url": "{BaseUrl}/api/v1/vitalsign",
+          "description": "Retrieve paginated vital sign records for a patient within a date range."
+        },
+        {
+          "@type": "ApiEndpoint",
+          "@id": "engage:api/v1/poc/{patientId}",
+          "name": "Care Plan",
+          "httpMethod": "GET",
+          "url": "{BaseUrl}/api/v1/poc/{patientId}",
+          "description": "Retrieve patient plan of care including problems, goals, and interventions."
+        },
+        {
+          "@type": "ApiEndpoint",
+          "@id": "engage:api/v1/medications",
+          "name": "Medications",
+          "httpMethod": "GET",
+          "url": "{BaseUrl}/api/v1/medications",
+          "description": "Retrieve patient medication records with dosage, frequency, and physician details."
+        },
+        {
+          "@type": "ApiEndpoint",
+          "@id": "engage:api/v1/allergies",
+          "name": "Allergies",
+          "httpMethod": "GET",
+          "url": "{BaseUri}/api/v1/allergies",
+          "description": "Retrieve patient allergy records with severity, reaction type, and information source."
+        },
+        {
+          "@type": "ApiEndpoint",
+          "@id": "engage:api/v1/fhir/Patient/{id}/$cda-ccds",
+          "name": "All Data Request (C-CDA/CCDS)",
+          "httpMethod": "GET",
+          "url": "{BaseUrl}/api/v1/fhir/Patient/{id}/$cda-ccds",
+          "description": "CEHRT § 170.315(g)(9) — retrieve comprehensive patient data as a C-CDA document including demographics, encounters, immunizations, medications, problems, procedures, lab results, and vital signs.",
+          "CehrtCriteria": "allDataRequest"
+        }
+      ]
+    }
+  ]
+}
