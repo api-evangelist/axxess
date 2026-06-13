@@ -1,0 +1,40 @@
+name: Axxess API Rate Limits
+description: Rate limiting policies for the Axxess API. The Axxess API Usage Policy references call volume limits defined in developer documentation at engage.axxess.com. Specific numeric limits are not publicly disclosed and may vary by API tier and integration agreement.
+url: https://engage.axxess.com/AxxessAPI_UsagePolicy.html
+rateLimits:
+  - name: Public API Call Volume Limit
+    description: Axxess enforces call volume limits for public API access as defined in the developer documentation. Specific thresholds are governed by the technical documentation maintained at the developer portal. Exceeding limits requires written consent from Axxess to increase allowances.
+    url: https://engage.axxess.com/AxxessAPI_UsagePolicy.html
+    type: CallVolume
+    limit: Defined in developer documentation
+    window: Not publicly specified
+    notes:
+      - Limits apply to all CEHRT API endpoints (g.7, g.8, g.9)
+      - Increased limits available via written consent from Axxess
+      - Enterprise integrations may have custom volume agreements
+      - Refer to engage.axxess.com/api.html for current thresholds
+
+  - name: Enterprise Integration Rate Limits
+    description: Custom call volume limits negotiated per enterprise integration service order. Limits are defined in the applicable service agreement between the integration partner and Axxess.
+    url: https://www.axxess.com/interoperability-partners/
+    type: Custom
+    limit: Per service agreement
+    window: Per service agreement
+    notes:
+      - Defined in integration partner service orders
+      - Contact Axxess for enterprise volume requirements
+      - Bi-directional integrations subject to partner-specific limits
+
+policies:
+  - name: Call Volume Policy
+    description: Developers must adhere to technical documentation call volume limits. Company may increase limits upon written consent. No specific throttling or backoff strategy is publicly documented.
+    url: https://engage.axxess.com/AxxessAPI_UsagePolicy.html
+    enforcement: Per developer documentation guidelines
+    escalation: Written consent from Axxess required for increased limits
+
+tags:
+  - Rate Limits
+  - API
+  - CEHRT
+  - Interoperability
+  - Healthcare

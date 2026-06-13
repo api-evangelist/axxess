@@ -1,0 +1,78 @@
+name: Axxess FinOps
+description: Financial operations guidance for teams consuming the Axxess API. Covers cost structure, billing policies, compliance obligations, and strategies for managing API integration costs within the Axxess platform.
+url: https://engage.axxess.com/AxxessAPI_UsagePolicy.html
+costStructure:
+  publicAPI:
+    description: Access to Axxess public CEHRT APIs (g.7, g.8, g.9) is provided at no charge under the Axxess API Usage Policy.
+    price: 0
+    currency: USD
+    notes:
+      - No fee for CEHRT-compliant API access
+      - Governed by non-exclusive, non-transferable license
+      - All applicable taxes are the responsibility of the licensee
+
+  enterpriseIntegration:
+    description: Custom enterprise API and integration agreements carry fees defined in the applicable service order form. All fees are non-refundable and payable in US dollars.
+    price: Custom
+    currency: USD
+    billingTerms: Net 15 from invoice date
+    notes:
+      - Fees non-refundable
+      - Payable in USD
+      - All applicable taxes borne by licensee
+      - Governed by California law, venue in San Francisco
+
+  softwareSubscription:
+    description: Core Axxess EHR software subscriptions are separate from API costs. Home Health software starts at approximately $899 per user per month, with large enterprise implementations potentially reaching $150,000 total.
+    priceRange:
+      minimum: 899
+      maximum: 150000
+    currency: USD
+    billing: Monthly
+    notes:
+      - No free trial available
+      - Custom pricing for large organizations
+      - Contact vendor for tailored quotes
+
+billingPolicies:
+  - name: Non-Refundable Fees
+    description: All enterprise API and integration fees paid to Axxess are non-refundable.
+    url: https://engage.axxess.com/AxxessAPI_UsagePolicy.html
+
+  - name: Payment Terms
+    description: Enterprise invoices are due Net 15 from invoice date. All amounts are in US dollars.
+    url: https://engage.axxess.com/AxxessAPI_UsagePolicy.html
+
+  - name: Tax Obligations
+    description: The licensee (API consumer) is responsible for all applicable taxes associated with API access and integration services.
+    url: https://engage.axxess.com/AxxessAPI_UsagePolicy.html
+
+  - name: Liability Cap
+    description: Axxess limits its liability to amounts paid by the licensee under the agreement, with a minimum cap of $500.
+    url: https://engage.axxess.com/AxxessAPI_UsagePolicy.html
+
+costOptimization:
+  - name: Use Public APIs Where Possible
+    description: Leverage the free CEHRT public APIs for federal interoperability compliance use cases (g.7, g.8, g.9) before negotiating enterprise integration agreements.
+    url: https://engage.axxess.com/api.html
+
+  - name: Monitor Call Volumes
+    description: Track API call volumes against limits defined in Axxess developer documentation to avoid exceeding thresholds, which would require written consent for increases.
+    url: https://engage.axxess.com/AxxessAPI_UsagePolicy.html
+
+  - name: Evaluate Axxess Exchange Partners
+    description: For clinical data exchange needs, evaluate Axxess Exchange (powered by Kno2) and existing interoperability partners (SureScripts, CarePort, Forcura) to avoid redundant custom integration costs.
+    url: https://www.axxess.com/interoperability-partners/
+
+  - name: Bundle Integration with Software Subscription
+    description: Organizations already subscribing to Axxess EHR software should explore bundled integration options as part of their existing service agreement before pursuing standalone API contracts.
+    url: https://www.axxess.com/
+
+tags:
+  - FinOps
+  - API Costs
+  - Healthcare
+  - EHR
+  - CEHRT
+  - Interoperability
+  - Billing

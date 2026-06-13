@@ -1,0 +1,74 @@
+name: Axxess Plans and Pricing
+description: Pricing and plan tiers for Axxess home health, hospice, and private duty software and API access. Axxess provides certified EHR technology with public API access at no charge and enterprise API access under custom service agreements.
+url: https://www.axxess.com/
+plans:
+  - name: Public API Access
+    description: Access to Axxess public CEHRT APIs at no charge, covering Patient Selection (g.7), Data Category Request (g.8), and All Data Request (g.9) endpoints for certified EHR interoperability. Governed by the Axxess API Usage Policy.
+    url: https://engage.axxess.com/AxxessAPI_UsagePolicy.html
+    type: Free
+    price: 0
+    currency: USD
+    billing: None
+    features:
+      - CEHRT Patient Selection API (§ 170.315(g)(7))
+      - CEHRT Data Category Request API (§ 170.315(g)(8))
+      - CEHRT All Data Request API (§ 170.315(g)(9))
+      - FHIR-compliant data exchange
+      - Non-exclusive, non-transferable license
+    limitations:
+      - Subject to call volume limits per developer documentation
+      - No redistribution of APIs to third parties
+      - No charging end-users incremental fees for API integration
+      - No use with competing applications
+
+  - name: Enterprise Integration
+    description: Custom enterprise API and integration agreements for technology partners building deep integrations with Axxess clinical, operational, and EVV workflows. Includes access to proprietary integration capabilities beyond CEHRT compliance APIs.
+    url: https://www.axxess.com/interoperability-partners/
+    type: Paid
+    price: Custom
+    currency: USD
+    billing: Custom (Net 15 from invoice)
+    features:
+      - Custom integration development
+      - Clinical integrations (pharmacy, wound care, remote patient monitoring)
+      - Operational integrations (payroll, medical supplies, care coordination)
+      - EVV integrations (HHA Exchange, Sandata, Tellus)
+      - Axxess Exchange powered by Kno2 (HL7, TEFCA, FHIR, HITRUST, HIPAA)
+      - Bi-directional data exchange
+      - Dedicated integration support
+    limitations:
+      - Custom pricing per service order
+      - All fees non-refundable
+      - Must comply with Axxess API Usage Policy
+      - Contact Axxess for qualification
+
+  - name: Home Health Software
+    description: Core Axxess Home Health EHR software subscription for agencies managing patient plans of care, visit documentation, billing, scheduling, and OASIS assessments.
+    url: https://www.axxess.com/home-health-software
+    type: Paid
+    price: 899
+    priceLabel: Starting at $899/user
+    currency: USD
+    billing: Monthly
+    features:
+      - Patient plans of care management
+      - Visit documentation
+      - OASIS assessment tools
+      - Billing and claims management
+      - Scheduling
+      - Mobile app access
+      - Axxess Intelligence AI tools
+      - Interoperability via Axxess Exchange
+    limitations:
+      - Large-scale implementations may reach up to $150,000
+      - No free trial available
+      - Contact vendor for tailored pricing
+
+tags:
+  - Home Health
+  - Hospice
+  - EHR
+  - FHIR
+  - CEHRT
+  - API
+  - Interoperability

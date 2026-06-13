@@ -1,0 +1,97 @@
+name: Axxess
+description: Home health, hospice, and private duty software with REST APIs for managing patient plans of care, visit documentation, billing, scheduling, and OASIS assessments. Axxess provides certified EHR technology with FHIR-compliant interoperability, supporting data exchange across care settings via HL7, TEFCA, FHIR, HITRUST, and HIPAA standards.
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+url: https://raw.githubusercontent.com/api-evangelist/axxess/refs/heads/main/apis.yml
+type: Index
+tags:
+  - Home Health
+  - Hospice
+  - Private Duty
+  - EHR
+  - Healthcare
+  - FHIR
+  - OASIS
+  - Billing
+  - Scheduling
+  - Visit Documentation
+created: "2026-06-13"
+modified: "2026-06-13"
+specificationVersion: "0.19"
+apis:
+  - name: Axxess Patient Selection API
+    description: CEHRT-certified API (§ 170.315(g)(7)) for patient data selection, enabling authorized access to patient records within the Axxess EHR platform using FHIR standards.
+    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://engage.axxess.com/api.html
+    baseURL: https://engage.axxess.com
+    tags:
+      - Patient Selection
+      - FHIR
+      - EHR
+      - CEHRT
+    properties:
+      - type: Documentation
+        url: https://engage.axxess.com/api.html
+      - type: UsagePolicy
+        url: https://engage.axxess.com/AxxessAPI_UsagePolicy.html
+
+  - name: Axxess Data Category Request API
+    description: CEHRT-certified API (§ 170.315(g)(8)) for categorical patient data retrieval, supporting structured data access by category within the Axxess certified EHR solution.
+    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://engage.axxess.com/api.html
+    baseURL: https://engage.axxess.com
+    tags:
+      - Data Category
+      - FHIR
+      - EHR
+      - CEHRT
+    properties:
+      - type: Documentation
+        url: https://engage.axxess.com/api.html
+      - type: UsagePolicy
+        url: https://engage.axxess.com/AxxessAPI_UsagePolicy.html
+
+  - name: Axxess All Data Request API
+    description: CEHRT-certified API (§ 170.315(g)(9)) supporting CCDS C-CDA comprehensive data requests, allowing full patient data export in compliance with federal interoperability requirements.
+    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://engage.axxess.com/api.html
+    baseURL: https://engage.axxess.com
+    tags:
+      - All Data Request
+      - CCDS
+      - C-CDA
+      - FHIR
+      - EHR
+      - CEHRT
+    properties:
+      - type: Documentation
+        url: https://engage.axxess.com/api.html
+      - type: UsagePolicy
+        url: https://engage.axxess.com/AxxessAPI_UsagePolicy.html
+
+common:
+  - type: Plans
+    url: https://raw.githubusercontent.com/api-evangelist/axxess/refs/heads/main/plans/axxess-plans-pricing.yml
+  - type: RateLimits
+    url: https://raw.githubusercontent.com/api-evangelist/axxess/refs/heads/main/rate-limits/axxess-rate-limits.yml
+  - type: FinOps
+    url: https://raw.githubusercontent.com/api-evangelist/axxess/refs/heads/main/finops/axxess-finops.yml
+  - type: Documentation
+    url: https://engage.axxess.com/api.html
+  - type: UsagePolicy
+    url: https://engage.axxess.com/AxxessAPI_UsagePolicy.html
+  - type: Website
+    url: https://www.axxess.com
+  - type: Blog
+    url: https://www.axxess.com/blog/
+  - type: News
+    url: https://www.axxess.com/media/
+  - type: InteroperabilityPartners
+    url: https://www.axxess.com/interoperability-partners/
+  - type: AxxessExchange
+    url: https://www.axxess.com/axxess-exchange/
+  - type: AxxessConnect
+    url: https://www.axxess.com/axxess-connect/
+
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
