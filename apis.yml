@@ -1,6 +1,6 @@
 name: Axxess
 description: Home health, hospice, and private duty software with REST APIs for managing patient plans of care, visit documentation, billing, scheduling, and OASIS assessments. Axxess provides certified EHR technology with FHIR-compliant interoperability, supporting data exchange across care settings via HL7, TEFCA, FHIR, HITRUST, and HIPAA standards.
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 url: https://raw.githubusercontent.com/api-evangelist/axxess/refs/heads/main/apis.yml
 type: Index
 tags:
@@ -20,7 +20,7 @@ specificationVersion: "0.19"
 apis:
   - name: Axxess Patient Selection API
     description: CEHRT-certified API (§ 170.315(g)(7)) for patient data selection, enabling authorized access to patient records within the Axxess EHR platform using FHIR standards.
-    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://engage.axxess.com/api.html
     baseURL: https://engage.axxess.com
     tags:
@@ -36,7 +36,7 @@ apis:
 
   - name: Axxess Data Category Request API
     description: CEHRT-certified API (§ 170.315(g)(8)) for categorical patient data retrieval, supporting structured data access by category within the Axxess certified EHR solution.
-    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://engage.axxess.com/api.html
     baseURL: https://engage.axxess.com
     tags:
@@ -52,7 +52,7 @@ apis:
 
   - name: Axxess All Data Request API
     description: CEHRT-certified API (§ 170.315(g)(9)) supporting CCDS C-CDA comprehensive data requests, allowing full patient data export in compliance with federal interoperability requirements.
-    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://engage.axxess.com/api.html
     baseURL: https://engage.axxess.com
     tags:
