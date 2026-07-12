@@ -69,6 +69,8 @@ apis:
         url: https://engage.axxess.com/AxxessAPI_UsagePolicy.html
 
 common:
+  - type: DomainSecurity
+    url: security/axxess-domain-security.yml
   - type: Plans
     url: https://raw.githubusercontent.com/api-evangelist/axxess/refs/heads/main/plans/axxess-plans-pricing.yml
   - type: RateLimits
