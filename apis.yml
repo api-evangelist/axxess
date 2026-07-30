@@ -1,6 +1,18 @@
 name: Axxess
 description: Home health, hospice, and private duty software with REST APIs for managing patient plans of care, visit documentation, billing, scheduling, and OASIS assessments. Axxess provides certified EHR technology with FHIR-compliant interoperability, supporting data exchange across care settings via HL7, TEFCA, FHIR, HITRUST, and HIPAA standards.
-image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
+accessModel:
+  pricing: freemium
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Freemium
+  confidence: medium
+  source:
+  - plans
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/axxess.png
 url: https://raw.githubusercontent.com/api-evangelist/axxess/refs/heads/main/apis.yml
 type: Index
 tags:
