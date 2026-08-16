@@ -10,12 +10,12 @@
     },
     {
       "source": "https://www.axxess.com",
-      "feed_url": "https://www.axxess.com/blog/feed/",
+      "feed_url": "https://www.axxess.com/feed",
       "title": "",
       "saved": 0,
       "method": "discovered"
     }
   ],
-  "fetched": "2026-08-06T14:08:46Z",
+  "fetched": "2026-08-15T12:22:01Z",
   "post_count": 10
 }
