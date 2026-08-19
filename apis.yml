@@ -28,7 +28,7 @@ tags:
   - Visit Documentation
 created: "2026-06-13"
 modified: "2026-06-13"
-specificationVersion: "0.19"
+specificationVersion: '0.23'
 apis:
   - name: Axxess Patient Selection API
     description: CEHRT-certified API (§ 170.315(g)(7)) for patient data selection, enabling authorized access to patient records within the Axxess EHR platform using FHIR standards.
