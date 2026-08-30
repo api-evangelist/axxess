@@ -17,12 +17,12 @@
     },
     {
       "source": "https://www.axxess.com",
-      "feed_url": "https://www.axxess.com/feed",
+      "feed_url": "https://www.axxess.com/feed/",
       "title": "",
       "saved": 0,
       "method": "discovered"
     }
   ],
-  "fetched": "2026-08-22T20:20:02Z",
+  "fetched": "2026-08-30T22:33:40Z",
   "post_count": 10
 }
