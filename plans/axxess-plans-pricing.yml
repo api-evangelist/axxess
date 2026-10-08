@@ -76,3 +76,30 @@ tags:
   - CEHRT
   - API
   - Interoperability
+x-canonical:
+  generated: '2026-10-08'
+  vocabulary: all/0-working/economics/plans-canonical.yml
+  models:
+  - free
+  - negotiated
+  - subscription
+  units: []
+  plans:
+  - name: Public API Access
+    access: free
+    model: free
+    model_how: derived
+    units: []
+    periods: []
+  - name: Enterprise Integration
+    access: paid
+    model: negotiated
+    model_how: derived
+    units: []
+    periods: []
+  - name: Home Health Software
+    access: paid
+    model: subscription
+    model_how: derived
+    units: []
+    periods: []
